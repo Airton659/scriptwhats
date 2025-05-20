@@ -4,7 +4,7 @@
 a = Analysis(
     ['whatsapp_gui_multi.py'],
     pathex=[],
-    binaries=[],
+    binaries=[('chromedriver.exe', '.')],
     datas=[],
     hiddenimports=[],
     hookspath=[],
